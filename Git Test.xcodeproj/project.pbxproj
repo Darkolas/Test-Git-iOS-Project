@@ -21,6 +21,7 @@
 		293FB5AE19AC94F3006F047E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293FB59019AC94F3006F047E /* UIKit.framework */; };
 		293FB5B619AC94F3006F047E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 293FB5B419AC94F3006F047E /* InfoPlist.strings */; };
 		293FB5B819AC94F3006F047E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FB5B719AC94F3006F047E /* Git_TestTests.m */; };
+		293FB5C319AC9CEB006F047E /* SDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FB5C219AC9CEB006F047E /* SDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		293FB5B319AC94F3006F047E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		293FB5B519AC94F3006F047E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		293FB5B719AC94F3006F047E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		293FB5C119AC9CEB006F047E /* SDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTest.h; sourceTree = "<group>"; };
+		293FB5C219AC9CEB006F047E /* SDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		293FB58019AC94F3006F047E = {
 			isa = PBXGroup;
 			children = (
+				293FB5C119AC9CEB006F047E /* SDTest.h */,
+				293FB5C219AC9CEB006F047E /* SDTest.m */,
 				293FB59219AC94F3006F047E /* Git Test */,
 				293FB5B119AC94F3006F047E /* Git TestTests */,
 				293FB58B19AC94F3006F047E /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				293FB59919AC94F3006F047E /* main.m in Sources */,
 				293FB5A319AC94F3006F047E /* SDViewController.m in Sources */,
+				293FB5C319AC9CEB006F047E /* SDTest.m in Sources */,
 				293FB59D19AC94F3006F047E /* SDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
